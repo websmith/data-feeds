@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Data Feeds</title>
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css">
+		<link rel="stylesheet" href="css/simple-sidebar.css">
+		<link rel="stylesheet" href="css/global.css">
+
+		<!-- Scripts -->
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="//maps.googleapis.com/maps/api/js?sensor=false"></script> 
+		<script src="//www.google.com/jsapi"></script>
+		<script src="js/site.js"></script>
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<section class="page-dashboard" data-role="page" id="dashboard">
+			<div class="wrapper">
+				<div id="sidebar-wrapper">
+					<ul class="sidebar-nav">
+						<li class="sidebar-brand"><a href="#">Data Feeds</a></li>
+						<li><a href="#dashboard" class="active">Dashboard</a></li>
+						<li><a href="#nextweb">The Next Web</a></li>
+						<li><a href="#techcrunch">Tech Crunch</a></li>
+						<li><a href="#cnn">CNN</a></li>
+					</ul>
+				</div>
+
+				<header>
+					<div class="container-fluid">
+						<div class="row dash-container">
+								<a href="#" class="menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>	
+								<h1 class="page-title">Dashboard</h1>
+								<span class="weather-location"></span>
+								<span class="weather-temp"></span>
+								<span class="weather-icon"></span>
+						</div>
+					</div>
+				</header>
+				
+				<ul class="forcast">
+				</ul>
+
+				<div class="page-content-wrapper">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-12">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="page-nextweb" data-role="page" id="nextweb">
+			<div class="wrapper">
+				<div id="sidebar-wrapper">
+					<ul class="sidebar-nav">
+						<li class="sidebar-brand"><a href="#">Data Feeds</a></li>
+						<li><a href="index.html">Dashboard</a></li>
+						<li><a href="#nextweb" class="active">The Next Web</a></li>
+						<li><a href="#techcrunch">Tech Crunch</a></li>
+						<li><a href="#cnn">CNN</a></li>
+					</ul>
+				</div>
+
+				<header>
+					<div class="container-fluid">
+						<div class="row dash-container">
+								<a href="#" class="menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>	
+								<h1 class="page-title">The Next Web</h1>
+								<span class="weather-location"></span>
+								<span class="weather-temp"></span>
+								<span class="weather-icon"></span>
+						</div>
+					</div>
+				</header>
+
+				<div class="page-content-wrapper">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-12">
+								<ul class="feed-list">
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="page-techcrunch" data-role="page" id="techcrunch">
+			<div class="wrapper">
+				<div id="sidebar-wrapper">
+					<ul class="sidebar-nav">
+						<li class="sidebar-brand"><a href="#">Data Feeds</a></li>
+						<li><a href="index.html">Dashboard</a></li>
+						<li><a href="#nextweb">The Next Web</a></li>
+						<li><a href="#techcrunch" class="active">Tech Crunch</a></li>
+						<li><a href="#cnn">CNN</a></li>
+					</ul>
+				</div>
+
+				<header>
+					<div class="container-fluid">
+						<div class="row dash-container">
+								<a href="#" class="menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>	
+								<h1 class="page-title">Tech Crunch</h1>
+								<span class="weather-location"></span>
+								<span class="weather-temp"></span>
+								<span class="weather-icon"></span>
+						</div>
+					</div>
+				</header>
+
+				<div class="page-content-wrapper">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-12">
+								<ul class="feed-list">
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="page-cnn" data-role="page" id="cnn">
+			<div class="wrapper">
+				<div id="sidebar-wrapper">
+					<ul class="sidebar-nav">
+						<li class="sidebar-brand"><a href="#">Data Feeds</a></li>
+						<li><a href="index.html">Dashboard</a></li>
+						<li><a href="#nextweb">The Next Web</a></li>
+						<li><a href="#techcrunch">Tech Crunch</a></li>
+						<li><a href="#cnn" class="active">CNN</a></li>
+					</ul>
+				</div>
+
+				<header>
+					<div class="container-fluid">
+						<div class="row dash-container">
+								<a href="#" class="menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>	
+								<h1 class="page-title">CNN</h1>
+								<span class="weather-location"></span>
+								<span class="weather-temp"></span>
+								<span class="weather-icon"></span>
+						</div>
+					</div>
+				</header>
+
+				<div class="page-content-wrapper">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-12">
+								<ul class="feed-list">
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(".menu-toggle").click(function(e) {
+				console.log('toggle');
+				e.preventDefault();
+				$(".wrapper").toggleClass("toggled");
+			});
+		</script>
+	</body>
+</html>
